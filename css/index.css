@@ -1,0 +1,80 @@
+
+ /* nav css */
+    .navbar {
+		margin-bottom: 0;
+        border-radius: 0;
+     }
+     .navbar-text {
+         margin: 1px;
+     }
+     .container-fluid {
+         height: 70px;
+     }
+     #myNavbar ul {
+         height: 70px;
+     }
+     #navLinks li a {
+         left: 5px;
+         padding-right: 30px;
+         padding-left: 30px;
+     }
+     .navbar-nav li a {
+         line-height: 45px;
+         font-size: 20px;
+         color: #0094ff;
+     }
+     #Logo {
+         color: #0094ff;
+         font-family: 'Monotype Corsiva';
+         font-size: 26px;
+         padding: 0;
+     }
+     #Logo2 {
+         color: darkorange;
+         font-size: 26px;
+         padding: 0;
+     }
+     .navbar-right a:hover {
+		 background-color: #0094ff;
+
+        }
+/* Image array css */
+   * {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial;
+}
+.page-header {
+    text-align: center;
+    font-family: Impact;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.3333333%;
+    padding: 10px;
+}
+.column img {
+    margin-top: 12px;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+        

@@ -1,0 +1,51 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-text {
+    margin: 1px;
+}
+
+.container-fluid {
+    height: 70px;
+}
+
+#myNavbar ul {
+    height: 70px;
+}
+
+#navLinks li a {
+    left: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.navbar-nav li a {
+    line-height: 45px;
+    font-size: 20px;
+    color: #0094ff;
+}
+
+#Logo {
+    color: #0094ff;
+    font-family: 'Monotype Corsiva';
+    font-size: 26px;
+    padding: 0;
+}
+
+#Logo2 {
+    color: darkorange;
+    font-size: 26px;
+    padding: 0;
+}
+
+.page-header {
+    text-align: center;
+    font-family: Impact;
+}
+
+footer {
+    clear: both;
+    font-weight: bold;
+}
