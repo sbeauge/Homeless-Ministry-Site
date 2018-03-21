@@ -1,0 +1,141 @@
+<!-- Merina Gray Home Page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Page</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-text" id="Logo">Merina Gray <div id="Logo2">Homeless Ministry</div></div>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav" id="navLinks">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="html/about.html">About</a></li>
+                    <li><a href="html/projects.html">Projects</a></li>
+                    <li><a href="html/contact.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://www.gofundme.com/2hvemf6s">Donate</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+        <div class="page-header">
+            <h1>Merina Gray Homeless Ministry</h1>
+        </div>
+
+    <!--------- Services page --------->
+  <section>
+      <div class="container">
+       <div class="service_section">
+         <div class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div class="services_block">
+              <div class="services_icon">
+                <a href="html/about.html" title="Our Mission" data-toggle="tooltip" data-placement="top">
+                  <h3><span class="glyphicon glyphicon-home"></span> Our Mission</h3>
+                </a>
+              </div>
+              <p>We’re a local, independent, faith-based nonprofit committed to providing hope. We’ve been doing it,The Mission provides for immediate physical needs — including food, clothing and shelter.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="services_block">
+              <div class="services_icon">
+                <a href="html/projects.html" title="Volunteering" data-toggle="tooltip" data-placement="top">
+                  <h3><span class="glyphicon glyphicon-user"></span> Volunteering</h3>
+                </a>
+              </div>
+              <p>We don’t have the resources or the staff to do everything needed to help the poor and homeless. High Impact People (HIP) are volunteers who help us accomplish important tasks. We work hard to provide flexible hours and place you in a department that you’re excited about.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="services_block">
+              <div class="services_icon">
+                <a href="https://www.gofundme.com/2hvemf6s" title="Donations" data-toggle="tooltip" data-placement="top">
+                  <h3><span class="glyphicon glyphicon-piggy-bank"></span> Donations</h3>
+                </a>
+              </div>
+              <p>Our ministry to the homeless is made possible entirely through the generous cash and in-kind contributions of friends like you.</p>
+            </div>
+          </div>
+
+        </div>
+       </div>
+    </div>
+  </section>
+  <!--------- /end of services -------->
+
+<!-- Image Grid --->
+
+    <div class='container'>
+    <div class="row">
+        <div class="column">
+            <img src="Images/pic1.jpg" style="width:100%" />
+            <img src="Images/pic4.jpg" style="width:100%" />
+            <img src="Images/pic9.jpg" style="width:100%" />
+        </div>
+        <div class="column">
+            <img src="Images/pic2.jpg" style="width:100%" />
+            <img src="Images/pic5.jpg" style="width:100%" />
+            <img src="Images/pic8.jpg" style="width:100%" />
+        </div>
+        <div class="column">
+            <img src="Images/pic3.jpg" style="width:100%" />
+            <img src="Images/pic6.jpg" style="width:100%" />
+            <img src="Images/pic7.jpg" style="width:100%" />
+        </div>
+    </div>
+    </div>
+
+
+	<!------- Google map ------>
+	<section>
+	    <div class="map">
+			<div class="container">
+			    <h2 class="text-center map_heading">Map</h2>
+				<div class="row">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4157.696752486203!2d-81.32678831178828!3d28.803342921149806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e771784d893a85%3A0x674aeacba8e92497!2sRiver+Orlando+Church!5e0!3m2!1sen!2sus!4v1511987073345" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-------- /end of map ------->
+	<!----- Footer ----->
+	<section>
+	    <footer>
+		    <div class="footer_bottom">
+			   <div class="container">
+					<div class="row">
+						<p class="copy_right pull-right"> Developed by <strong>Website Challenge Group 5</strong>. &copy 2017 All rights Reserved </p>
+					</div>
+				</div>
+		    </div>
+	    </footer>
+	</section>
+	<!----- /end of Footer ----->
+	<script>
+		$(document).ready(function(){
+			$('[data-toggle="tooltip"]').tooltip();
+		});
+	</script>
+
+</body>
+</html>
