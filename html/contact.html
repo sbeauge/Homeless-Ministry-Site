@@ -1,0 +1,287 @@
+<!-- Contact Page-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	<link href="../css/contact.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+        .navbar-text {
+            margin: 1px;
+        }
+
+        .container-fluid {
+            height: 70px;
+        }
+
+        #myNavbar ul {
+            height: 70px;
+        }
+
+        #navLinks li a {
+            left: 5px;
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+
+        .navbar-nav li a {
+            line-height: 45px;
+            font-size: 20px;
+            color: #0094ff;
+        }
+
+        #Logo {
+            color: #0094ff;
+            font-family: 'Monotype Corsiva';
+            font-size: 26px;
+            padding: 0;
+        }
+
+        #Logo2 {
+            color: darkorange;
+            font-size: 26px;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-text" id="Logo">Merina Gray <div id="Logo2">Homeless Ministry</div></div>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav" id="navLinks">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li ><a href="projects.html">Projects</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://www.gofundme.com/2hvemf6s">Donate</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  
+
+<div = 'page-header'><h1>Contact Us Today!</h1></div>
+
+<p>If you can’t find the information you are looking for on our website, 
+please send us a message. We’d love to hear from you.</p>  
+ <div class="container">
+ <form class="well form-horizontal" method="post"  id="contact_form">
+<fieldset>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">First Name:</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Last Name:</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+       <div class="form-group">
+  <label class="col-md-4 control-label">E-mail:</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+
+<!-- Text input-->
+       
+<div class="form-group">
+  <label class="col-md-4 control-label">Phone:</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+  <input name="phone" placeholder="(845)-555-1212" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->      
+<div class="form-group">
+  <label class="col-md-4 control-label">Address:</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="address" placeholder="Address" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Input City Name-->
+<div class="form-group">
+  <label class="col-md-4 control-label">City:</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="city" placeholder="City" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Selector for States -->
+<div class="form-group"> 
+  <label class="col-md-4 control-label">State:</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="state" class="form-control selectpicker" >
+      <option value=" " >Please select your state</option>
+      <option>Alabama</option>
+      <option>Alaska</option>
+      <option>Arizona</option>
+      <option>Arkansas</option>
+      <option>California</option>
+      <option>Colorado</option>
+      <option>Connecticut</option>
+      <option>Delaware</option>
+      <option>District of Columbia</option>
+      <option>Florida</option>
+      <option>Georgia</option>
+      <option>Hawaii</option>
+      <option>Idaho</option>
+      <option>Illinois</option>
+      <option>Indiana</option>
+      <option>Iowa</option>
+      <option>Kansas</option>
+      <option>Kentucky</option>
+      <option>Louisiana</option>
+      <option>Maine</option>
+      <option>Maryland</option>
+      <option>Mass</option>
+      <option>Michigan</option>
+      <option>Minnesota</option>
+      <option>Mississippi</option>
+      <option>Missouri</option>
+      <option>Montana</option>
+      <option>Nebraska</option>
+      <option>Nevada</option>
+      <option>New Hampshire</option>
+      <option>New Jersey</option>
+      <option>New Mexico</option>
+      <option>New York</option>
+      <option>North Carolina</option>
+      <option>North Dakota</option>
+      <option>Ohio</option>
+      <option>Oklahoma</option>
+      <option>Oregon</option>
+      <option>Pennsylvania</option>
+      <option>Rhode Island</option>
+      <option>South Carolina</option>
+      <option>South Dakota</option>
+      <option>Tennessee</option>
+      <option>Texas</option>
+      <option>Utah</option>
+      <option>Vermont</option>
+      <option>Virginia</option>
+      <option>Washington</option>
+      <option>West Virginia</option>
+      <option>Wisconsin</option>
+      <option>Wyoming</option>
+    </select>
+  </div>
+</div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label">Zip Code:</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="zip" placeholder="Zip Code" class="form-control"  type="text">
+    </div>
+</div>
+</div>
+
+
+<!-- Text area -->
+<div class="form-group">
+  <label class="col-md-4 control-label">Project Description:</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+        	<textarea class="form-control" name="comment" placeholder="Project Description"></textarea>
+  </div>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4">
+    <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+  </div>
+</div>
+</fieldset>
+</form>
+</div>
+
+
+
+<div class="container">
+    <h3>Check out our social media!</h3>
+    <div class="btn-group btn-group-justified">
+  <a href=""https://www.facebook.com/MERINAROC/?ref=nf"" class="btn btn-default"><i class="fa fa-facebook-square"></i><br>Facebook</a>
+  <a href="https://twitter.com/ROC_Homeless" class="btn btn-default"><i class="fa fa-twitter-square"></i><br>Twitter</a>
+  <a href="https://www.gofundme.com/2hvemf6s" class="btn btn-default"><i class="fa fa-money"></i><br>GoFundMe</a>
+<a href="emailto:email@email.com" class="btn btn-default"><i class="fa fa-envelope-o"></i><br>Email</a>
+</div> 
+
+</div>
+
+
+	
+<footer>
+	<div class="footer_bottom">
+		<div class="container">
+			<div class="row">
+				<p class="copy_right pull-right"> Developed by <strong>Website Challenge Group 5</strong>. &copy 2017 All rights Reserved </p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
